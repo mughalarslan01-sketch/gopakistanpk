@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP temp files
+*.log
+*.cache
+
+# Uploads (optional if user-generated)
+uploads/*
+!uploads/.gitkeep
+
+# Local fallback images may be supplied separately
+assets/images/*.jpg
+assets/images/*.jpeg
+assets/images/*.png
+assets/images/*.webp
+
+# Environment files
+.env
+.env.*
+
+# Database backups
+*.sql.gz
